@@ -1,0 +1,17 @@
+..\output\moto.o: ..\HARDWARE\motor\moto.c
+..\output\moto.o: ..\HARDWARE\motor\moto.h
+..\output\moto.o: ..\HARDWARE\sys\sys.h
+..\output\moto.o: ..\CMSIS\stm32f10x.h
+..\output\moto.o: ..\CMSIS\core_cm3.h
+..\output\moto.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\moto.o: ..\CMSIS\system_stm32f10x.h
+..\output\moto.o: ..\USER\stm32f10x_conf.h
+..\output\moto.o: ..\FWlib\inc\stm32f10x_can.h
+..\output\moto.o: ..\CMSIS\stm32f10x.h
+..\output\moto.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\output\moto.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\output\moto.o: ..\FWlib\inc\stm32f10x_tim.h
+..\output\moto.o: ..\FWlib\inc\stm32f10x_usart.h
+..\output\moto.o: ..\HARDWARE\timer\timer.h
+..\output\moto.o: ..\HARDWARE\can\can.h
+..\output\moto.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

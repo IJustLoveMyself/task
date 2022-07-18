@@ -1,0 +1,14 @@
+..\output\bsp_uart.o: ..\HARDWARE\bsp\bsp_scr\bsp_uart.c
+..\output\bsp_uart.o: ..\HARDWARE\bsp\bsp_inc\bsp_uart.h
+..\output\bsp_uart.o: ..\CMSIS\stm32f10x.h
+..\output\bsp_uart.o: ..\CMSIS\core_cm3.h
+..\output\bsp_uart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\bsp_uart.o: ..\CMSIS\system_stm32f10x.h
+..\output\bsp_uart.o: ..\USER\stm32f10x_conf.h
+..\output\bsp_uart.o: ..\FWlib\inc\stm32f10x_can.h
+..\output\bsp_uart.o: ..\CMSIS\stm32f10x.h
+..\output\bsp_uart.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\output\bsp_uart.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\output\bsp_uart.o: ..\FWlib\inc\stm32f10x_tim.h
+..\output\bsp_uart.o: ..\FWlib\inc\stm32f10x_usart.h
+..\output\bsp_uart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
