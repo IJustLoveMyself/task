@@ -234,13 +234,13 @@ void task_create(void(*func)(),u32 delay,u8 id)
 }
 
 /**
- * [timeisr description]
+ * [task_timer_isr description]
  * @author Gxf
  * @dateTime 2021-10-18
  * @brief    [description] 定时器中断用于任务轮询，如果选择滴答定时器，则将task_scheduler放于滴答定时器中断中
  * @note     [description]
  */
-void timeisr(void)
+void task_timer_isr(void)
 {
   if(timer_interrupt_flag_get(TASK_TIMER, TIMER_INT_UP) != RESET)  
   {
